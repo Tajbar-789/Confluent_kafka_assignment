@@ -13,6 +13,8 @@ try:
 except:
   print("Connection failed")
 
+mycursor.execute("create table if not exists emp (emp_id int,emp_name varchar(25),salary int, dept_id int ,updated_at TIMESTAMP );")
+mydb.commit()
 while True:
   emp_details=input("Enter the details of the employee\n").split(" ")
   emp_id=int(emp_details[0])
