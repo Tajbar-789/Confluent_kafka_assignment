@@ -1,0 +1,1 @@
+pip3 install confluent_kafka uuid typing pandas requests uuid jsonschema six datetime cassandra-driver
